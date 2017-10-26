@@ -1,0 +1,34 @@
+html{
+	background:linear-gradiant(#26EC18,#3ADFF2);
+	height: 100vh;
+}
+body{
+	font:16px Arail;
+}
+section{
+	background-color: #2BD6E5;
+	margin: 20px auto;
+	width: 400px;
+}
+section div{
+	border:1px solid #ccc;
+	padding: 10px;
+
+	margin-bottom: 4px;
+}
+
+	section div.ejemplo{
+		background-color: #198C16;
+		text-align: center;
+		transition: all 0.5s;
+
+
+	}
+	section div.ejemplo:hover{
+		background-color: #1C58BB;
+		cursor: pointer;
+	}
+	´section div.resultado{
+		font-size: 0.8em;
+	}
+
